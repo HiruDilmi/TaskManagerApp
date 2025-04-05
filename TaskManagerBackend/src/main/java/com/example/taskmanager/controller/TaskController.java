@@ -16,31 +16,31 @@ public class TaskController {
     private TaskService taskService;
 
     // Get all tasks
-    @GetMapping
+    @GetMapping("/all")
     public List<Task> getAllTasks() {
         return taskService.getAllTasks();
     }
 
     // Get task by ID
-    @GetMapping("/{id}")
+    @GetMapping("/getById/{id}")
     public Optional<Task> getTaskById(@PathVariable Long id) {
         return taskService.getTaskById(id);
     }
 
     // Create task
-    @PostMapping
+    @PostMapping("/create")
     public Task createTask(@RequestBody Task task) {
         return taskService.createTask(task);
     }
 
     // Update task
-    @PutMapping("/{id}")
+    @PutMapping("/update/{id}")
     public Task updateTask(@PathVariable Long id, @RequestBody Task updateTask) {
         return taskService.updateTask(id, updateTask);
     }
 
     // Delete task
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public void deleteTask(@PathVariable Long id) {
         taskService.deleteTask(id);
     }
