@@ -1,6 +1,6 @@
 package com.assesment.TaskManager_Backend.Repositories;
 
-import com.assesment.TaskManager_Backend.entitites.User;
+import com.assesment.TaskManager_Backend.Entitites.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

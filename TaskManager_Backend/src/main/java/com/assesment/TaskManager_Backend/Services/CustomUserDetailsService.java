@@ -1,7 +1,7 @@
 package com.assesment.TaskManager_Backend.Services;
 
 import com.assesment.TaskManager_Backend.Repositories.UserRepository;
-import com.assesment.TaskManager_Backend.entitites.User;
+import com.assesment.TaskManager_Backend.Entitites.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.security.core.userdetails.UserDetails;
