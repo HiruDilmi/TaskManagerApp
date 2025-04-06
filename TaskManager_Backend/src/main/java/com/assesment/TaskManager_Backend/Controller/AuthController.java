@@ -5,7 +5,7 @@ import com.assesment.TaskManager_Backend.DTO.AuthResponse;
 import com.assesment.TaskManager_Backend.Repositories.UserRepository;
 import com.assesment.TaskManager_Backend.Services.CustomUserDetailsService;
 import com.assesment.TaskManager_Backend.Utility.JwtUtil;
-import com.assesment.TaskManager_Backend.entitites.User;
+import com.assesment.TaskManager_Backend.Entitites.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.assesment.TaskManager_Backend.entitites;
+package com.assesment.TaskManager_Backend.Entitites;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
